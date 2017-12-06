@@ -8,7 +8,7 @@
   <div class="php connection">
     <?php
         $servername = "localhost";
-        $username = "DBA";
+        $username = "root";
         $password = "";
         $dbname = "part_clicker_DB";
 
