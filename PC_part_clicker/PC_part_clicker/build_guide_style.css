@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html {font-family:avenir;}
+h1{
+  font: bold 20px;
+}
+h2 { font: bold 14px; color:#38a1ea;}
+header, section, footer, aside, nav, article, hgroup{
+  display:block;
+  ;
+}
+body {text-align: center; background-color: white;}
+h2{text-align:center;}
+
+
+#big_wrapper{
+  width:1280px;
+  text-align:left;
+}
+#top_header{
+  background-color: black;
+  width:1280px;
+  padding:20px;
+}
+#top_menu{
+  width:1280px;
+  padding:20px;
+  font-size: 15px;
+  background-color: #38a1ea;
+}
+#top_menu li{
+  display:inline-block;
+  list-style:none;
+  padding: 5px;
+}
+#main_section{
+  float: left;
+  width:660px;
+  margin:30px; /* 720 px, 280 left*/
+}
+#side_news{
+  float:right;
+  width:220px;
+  margin:20px 0px;
+  padding: 30px;
+  background-color: gray;
+  color:white;
+}
+#the_footer{
+  width:1280px;
+  clear:both;
+  text-align:center;
+  padding:20px;
+  border-top:2px solid #38a1ea;
+}
+
+article {
+    background:
+}
+
+
+
+.links {font-size: 15px; background-color: #38a1ea;}
+a:link {color: white; text-decoration:none; font-weight:bold;}
+a:visited {color: white;}
+a:hover {color: black;}
+a.logins:hover {color:#38a1ea;}
+a.registers:hover {color:#38a1ea;}
+#login {
+  display:inline-block;
+  margin-left: 850px;
+  font-size: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #38a1ea;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 50px 0px 12px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
