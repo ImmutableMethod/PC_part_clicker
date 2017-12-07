@@ -1,3 +1,22 @@
+<?php
+session_start();
+include_once 'db_connect.php';
+
+if (!isset($_SESSION['userSession'])) {
+ header("Location: Login_page.php");
+ }
+
+$cookie_name = "userID";
+$cookie_value = "0";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+
+
+
+$query=$DBcon->query("SELECT * FROM User WHERE userID=".$_SESSION['userSession']);
+$userRow=$query->fetch_array();
+$DBcon->close();
+
+?>
 <!doctype html>
 <html lang="en">
 <head>

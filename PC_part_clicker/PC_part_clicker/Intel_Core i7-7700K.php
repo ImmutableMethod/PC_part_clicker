@@ -1,3 +1,22 @@
+<?php
+session_start();
+include_once 'db_connect.php';
+
+if (!isset($_SESSION['userSession'])) {
+ header("Location: Login_page.php");
+ }
+
+$cookie_name = "userID";
+$cookie_value = "0";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+
+
+
+$query=$DBcon->query("SELECT * FROM User WHERE userID=".$_SESSION['userSession']);
+$userRow=$query->fetch_array();
+$DBcon->close();
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,7 +35,7 @@
     <nav id="top_menu">
       <ul class = "links">
         <li><a href ="new_systembuild.php">Start A System Build</a></li>
-        <li><a href ="">View The Build Guides</a></li>
+        <li><a href ="buildguides_main_page">View The Build Guides</a></li>
         <div class="dropdown">
           <li><span><a href="">Browse By Individual Part</a></span></li>
           <div class="dropdown-content">
