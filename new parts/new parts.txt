@@ -1,0 +1,17 @@
+Asus_GeForce_GTX_1080_Ti
+be quiet_Pro_900_ Full
+Cooler Master_1200W_80+_Fully-Modular
+Corsair_CXM_450W_80+_Semi-Modular
+Gigabyte_GA-B250M-DS3H_Micro
+GSkill_Trident Z
+Intel _DC_P3608_4TB_SSD
+Intel_DP35DPM_ATX
+Kingston_ValueRAM_1GB
+MSI_B350M_PRO-VD_PLUS_Micro
+Patriot_Viper_3
+Phanteks_Enthoo_Elite_ATX_Full
+Rosewill_FBM-01_MicroATX_Mini
+Samsung _850_EVO_250GB_SSD
+Sapphire_Radeon_RX-580_NITRO+
+SeaSonic_EVO_Edition_620W_80+_Fully-Modular
+Toshiba_X300_4TB_7200RPM_HDD
